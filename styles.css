@@ -1,0 +1,44 @@
+
+header {
+    
+    width: 100%;
+    background-color: black;
+    float:none;
+   
+}
+nav {
+    background-color:black;
+    float: none;
+    position: absolute;
+    top: 25px;
+    
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.imgbox {
+    display: grid;
+    height: 100%;
+}
+.center-fit {
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
+}
+footer {
+    position: fixed;
+    height: 50px;
+    bottom: 0;
+    width: 100%;
+    background-color:grey;
+    opacity: 5%;
+}
+
+.container1 {
+    height:200px;
+    width: 100%;
+}
+
+body {
+    background-color: black;
+}
+
